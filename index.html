@@ -18,7 +18,7 @@
                     url: "https://htcs5604flaskpayeapp.herokuapp.com/getNetIncome/",
                     data: JSON.stringify({gross_income: grossIncome}),
                     success: function(data){
-                        alert("Success")
+                        // alert("Success")
                         $("#netIncome").val(data);
                     },
                     error: function (err){
